@@ -1,16 +1,16 @@
 import React from "react";
 import myphoto from "../Images/photo.png";
-import Santosh_Resume from "../files/Santosh_Resume.pdf";
+import Santosh_Resume1 from "../files/Santosh_Resume1.pdf";
 import "../Styles/about.css";
 
 const About = ({ ref, func }) => {
   const handleDownload = () => {
     window.open(
-      "https://drive.google.com/file/d/1TFhT_KaAzJt8aXaWI0kMm5euXWKqrtXX/view?usp=sharing"
+      "https://drive.google.com/file/d/15yr4jsJNTNzjWW7Njrh6NK3KK4QBhXmX/view?usp=sharing"
     );
     const link = document.createElement("a");
-    link.href = Santosh_Resume;
-    link.setAttribute("download", "Santosh_Resume.pdf");
+    link.href = Santosh_Resume1 ;https://drive.google.com/file/d/15yr4jsJNTNzjWW7Njrh6NK3KK4QBhXmX/view?usp=sharing
+    link.setAttribute("download", "Santosh_Resume1.pdf");
     link.setAttribute("id", "resume-link-2");
     document.body.appendChild(link);
     link.click();

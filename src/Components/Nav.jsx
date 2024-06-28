@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/nav.css";
 import { useState } from "react";
-import Santosh_Resume from "../files/Santosh_Resume1";
+import Santosh_Resume1 from "../files/Santosh_Resume1.pdf";
 
 const Nav = () => {
   const [isActive, setIsActive] = useState(false);
