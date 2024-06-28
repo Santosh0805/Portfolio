@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/nav.css";
 import { useState } from "react";
-import Santosh_Resume from "../files/Santosh_Resume.pdf";
+import Santosh_Resume from "../files/Santosh_Resume1";
 
 const Nav = () => {
   const [isActive, setIsActive] = useState(false);
@@ -28,12 +28,12 @@ const Nav = () => {
 
   const handleDownload = () => {
     window.open(
-      "https://drive.google.com/file/d/1TFhT_KaAzJt8aXaWI0kMm5euXWKqrtXX/view?usp=sharing"
+      "https://drive.google.com/file/d/15yr4jsJNTNzjWW7Njrh6NK3KK4QBhXmX/view?usp=sharing"
     );
     const link = document.createElement("a");
 
-    link.href = Santosh_Resume;
-    link.setAttribute("download", "Santosh_Resume");
+    link.href = Santosh_Resume1;
+    link.setAttribute("download", "Santosh_Resume1");
     link.setAttribute("id", "resume-link-1");
     document.body.appendChild(link);
     link.click();
@@ -50,17 +50,17 @@ const Nav = () => {
           <ul className={`menu ${isActive ? "active" : ""}`}>
             <li>
               <a href="#" className="nav-link home" onClick={closemenu}>
-                Home
+              Home
               </a>
             </li>
             <li>
               <a href="#about" className="nav-link about" onClick={closemenu}>
-                About
+              About
               </a>
             </li>
             <li>
               <a href="#skills" className="nav-link skills" onClick={closemenu}>
-                Skills
+              Skills
               </a>
             </li>
             <li>
@@ -69,7 +69,7 @@ const Nav = () => {
                 className="nav-link projects"
                 onClick={closemenu}
               >
-                Projects
+              Projects
               </a>
             </li>
             <li>
@@ -78,7 +78,7 @@ const Nav = () => {
                 className="menu-btn active"
                 onClick={closemenu}
               >
-                Statistics
+              Statistics
               </a>
             </li>
             <li>
@@ -87,7 +87,7 @@ const Nav = () => {
                 className="nav-link contact"
                 onClick={closemenu}
               >
-                Contact
+              Contact
               </a>
             </li>
             <li id="resume-button-1" className="nav-link resume">
