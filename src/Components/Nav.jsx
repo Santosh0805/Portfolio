@@ -44,7 +44,7 @@ const Nav = () => {
     <div className="navdiv" id="nav-menu">
       <nav className={navbg ? "activenavbar" : "navbar"} id="nav-menu">
         <div className="max-width">
-          <div className="title_logo" style={{ fontFamily: "cursive" }}>
+          <div className="title_logo" style={{ fontFamily: "Georgia" }}>
             <h1 id="namelogo">Santosh</h1>
           </div>
           <ul className={`menu ${isActive ? "active" : ""}`}>
@@ -109,5 +109,8 @@ const Nav = () => {
     </div>
   );
 };
+
+
+
 
 export default Nav;
