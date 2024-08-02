@@ -6,7 +6,7 @@ import "../Styles/about.css";
 const About = ({ ref, func }) => {
   const handleDownload = () => {
     window.open(
-      "https://drive.google.com/file/d/15yr4jsJNTNzjWW7Njrh6NK3KK4QBhXmX/view?usp=sharing"
+      "https://drive.google.com/file/d/149bBMTWb3UteeZrCh8JXxPATxiQBRCbX/view?usp=sharing"
     );
     const link = document.createElement("a");
     link.href = Santosh_Resume1 ;https://drive.google.com/file/d/15yr4jsJNTNzjWW7Njrh6NK3KK4QBhXmX/view?usp=sharing
